@@ -55,8 +55,6 @@ public class MainPage extends BasePage{
 
 
 
-
-
     private Locator linkName(String name) {
         return page.getByRole(AriaRole.LINK, new Page.GetByRoleOptions().setName(name));
     }
