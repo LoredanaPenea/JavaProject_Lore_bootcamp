@@ -45,6 +45,15 @@ public class MainPage extends BasePage{
     public Locator keyPressesLink = page.getByRole(AriaRole.LINK, new Page.GetByRoleOptions().setName("Key Presses").setExact(true));
     public Locator largeLink = page.getByRole(AriaRole.LINK, new Page.GetByRoleOptions().setName("Large & Deep DOM").setExact(true));
     public Locator largeFormLink = page.getByRole(AriaRole.LINK, new Page.GetByRoleOptions().setName("Large Form").setExact(true));
+    public Locator multipleSelectDropDownLink = page.getByRole(AriaRole.LINK, new Page.GetByRoleOptions().setName("Multiple Select Dropdown").setExact(true));
+    public Locator multipleWindowsLink = page.getByRole(AriaRole.LINK, new Page.GetByRoleOptions().setName("Multiple Windows").setExact(true));
+    public Locator nestedFramesLink = page.getByRole(AriaRole.LINK, new Page.GetByRoleOptions().setName("Nested Frames").setExact(true));
+    public Locator notificationMessagesLink = page.getByRole(AriaRole.LINK, new Page.GetByRoleOptions().setName("Notification Messages").setExact(true));
+    public Locator radioButtonsLink = page.getByRole(AriaRole.LINK, new Page.GetByRoleOptions().setName("Radio Buttons").setExact(true));
+    public Locator readonlyInputsLink = page.getByRole(AriaRole.LINK, new Page.GetByRoleOptions().setName("Read-only Inputs").setExact(true));
+    public Locator redirectLink = page.getByRole(AriaRole.LINK, new Page.GetByRoleOptions().setName("Redirect Link").setExact(true));
+
+
 
 
 
