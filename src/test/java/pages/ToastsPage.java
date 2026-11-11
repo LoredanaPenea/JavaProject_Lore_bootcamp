@@ -18,5 +18,5 @@ public class ToastsPage extends BasePage
     public Locator successToast = page.locator(".toast.toast-success");
     public Locator errorToast = page.locator(".toast.toast-error");
     public Locator infoToast = page.locator(".toast.toast-info");
-    public Locator activeToasts = page.locator(".toast");
+
 }

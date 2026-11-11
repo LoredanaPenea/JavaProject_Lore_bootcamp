@@ -3,7 +3,6 @@ package tests;
 import com.microsoft.playwright.assertions.PlaywrightAssertions;
 import org.junit.jupiter.api.Test;
 import pages.MainPage;
-import pages.ToastsPage;
 import pages.WYSIWYGEditorPage;
 
 public class WYSIWYGEditorTests extends BaseTest{

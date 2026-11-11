@@ -1,7 +1,6 @@
 package tests;
 
 import com.microsoft.playwright.assertions.PlaywrightAssertions;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import pages.DateTimePickersPage;
 import pages.MainPage;
