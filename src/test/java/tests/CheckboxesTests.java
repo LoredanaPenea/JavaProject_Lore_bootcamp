@@ -7,7 +7,7 @@ import pages.MainPage;
 
 public class CheckboxesTests extends BaseTest {
     @Test
-    public void checkboxesTests() {
+     void checkboxesTests() {
         MainPage mainPage = new MainPage(page);
         mainPage.checkboxeslink.click();
 

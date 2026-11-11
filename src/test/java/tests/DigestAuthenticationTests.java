@@ -11,7 +11,7 @@ public class DigestAuthenticationTests extends BaseTest {
     private static final String DIGEST_AUTH_URL = "https://the-internet.herokuapp.com/digest_auth";
 
     @Test
-    public void digestAuthenticationTests() {
+     void digestAuthenticationTests() {
         BrowserContext authContext = browser.newContext(new Browser.NewContextOptions().setHttpCredentials("admin", "admin"));
         Page authPage = authContext.newPage();
         authPage.navigate("https://the-internet.herokuapp.com/");

@@ -8,7 +8,7 @@ import pages.MainPage;
 public class ChallengingDOMTests extends BaseTest
 {
     @Test
-    public void challengingDOMTests() {
+     void challengingDOMTests() {
         MainPage mainPage = new MainPage(page);
         mainPage.challengingDOMLink.click();
 

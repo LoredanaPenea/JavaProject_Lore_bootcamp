@@ -8,7 +8,7 @@ import pages.MainPage;
 
 public class DissappearingElementsTests extends BaseTest {
     @Test
-    public void disappearingElementsTests() {
+     void disappearingElementsTests() {
         MainPage mainPage = new MainPage(page);
         mainPage.disappearingElementsLink.click();
 

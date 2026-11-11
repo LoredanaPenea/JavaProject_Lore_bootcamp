@@ -57,7 +57,10 @@ public class MainPage extends BasePage{
     public Locator datetimePickersLink = page.getByRole(AriaRole.LINK, new Page.GetByRoleOptions().setName("Date & Time Pickers").setExact(true));
     public Locator twoFactorLink = page.getByRole(AriaRole.LINK, new Page.GetByRoleOptions().setName("Two-Factor Login").setExact(true));
     public Locator advancedIframesLink = page.getByRole(AriaRole.LINK, new Page.GetByRoleOptions().setName("Advanced Iframes").setExact(true));
-
+    public Locator autocompleteLink = page.getByRole(AriaRole.LINK, new Page.GetByRoleOptions().setName("Autocomplete").setExact(true));
+    public Locator browserPermissionsLink = page.getByRole(AriaRole.LINK, new Page.GetByRoleOptions().setName("Browser Permissions").setExact(true));
+    public Locator secureFileDownloadLink = page.getByRole(AriaRole.LINK, new Page.GetByRoleOptions().setName("Secure File Download").setExact(true));
+    public Locator shiftingContentLink = page.getByRole(AriaRole.LINK, new Page.GetByRoleOptions().setName("Shifting Content").setExact(true));
 
     private Locator linkName(String name) {
         return page.getByRole(AriaRole.LINK, new Page.GetByRoleOptions().setName(name));

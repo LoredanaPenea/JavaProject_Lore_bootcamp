@@ -7,7 +7,7 @@ import pages.WYSIWYGEditorPage;
 
 public class WYSIWYGEditorTests extends BaseTest{
     @Test
-    public void WYSIWYGEditorTests(){
+    public void WYSIWYGEditorTextTests(){
         MainPage mainPage = new MainPage(page);
         mainPage.wysiwygEditorLink.click();
 

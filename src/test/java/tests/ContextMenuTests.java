@@ -13,7 +13,7 @@ import static com.microsoft.playwright.options.MouseButton.RIGHT;
 
 public class ContextMenuTests extends BaseTest{
     @Test
-    public void contextMenuTest(){
+     void contextMenuTest(){
         MainPage mainPage = new MainPage(page);
         mainPage.contextMenuLink.click();
 

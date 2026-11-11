@@ -42,7 +42,6 @@ public class FormAuthenticationTests extends BaseTest {
         formAuthenticationPage.passwordInput.fill("SuperSecretPassword!");
         formAuthenticationPage.loginBtn.click();
 
-        //assertThat(page).hasURL(Pattern.compile(".*/login$"));
         assertThat(formAuthenticationPage.flashMessage).containsText("Your username is invalid!");
         assertThat(formAuthenticationPage.secureAreaHeading).hasCount(0);
     }

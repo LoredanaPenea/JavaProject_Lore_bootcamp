@@ -7,7 +7,7 @@ import pages.MainPage;
 
 public class DropdownTests extends BaseTest {
     @Test
-    public void dropdownTests() {
+     void dropdownTests() {
         MainPage mainPage = new MainPage(page);
         mainPage.dropdownLink.click();
 

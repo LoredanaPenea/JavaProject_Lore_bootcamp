@@ -28,6 +28,15 @@ public class BaseTest {
     @AfterEach
     void tearDown() throws InterruptedException {
         Thread.sleep(10000);
+        if (context != null) {
+            context.close();
+        }
+        if (browser != null) {
+            browser.close();
+        }
+        if (playwright != null) {
+            playwright.close();
+        }
     }
 
 }

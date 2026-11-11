@@ -7,7 +7,7 @@ import pages.MainPage;
 
 public class DragAndDropTests extends BaseTest {
     @Test
-    public void dragAndDropTests() {
+     void dragAndDropTests() {
         MainPage mainPage = new MainPage(page);
         mainPage.dragAndDropLink.click();
 
