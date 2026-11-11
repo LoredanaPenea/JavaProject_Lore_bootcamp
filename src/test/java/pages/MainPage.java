@@ -52,7 +52,11 @@ public class MainPage extends BasePage{
     public Locator radioButtonsLink = page.getByRole(AriaRole.LINK, new Page.GetByRoleOptions().setName("Radio Buttons").setExact(true));
     public Locator readonlyInputsLink = page.getByRole(AriaRole.LINK, new Page.GetByRoleOptions().setName("Read-only Inputs").setExact(true));
     public Locator redirectLink = page.getByRole(AriaRole.LINK, new Page.GetByRoleOptions().setName("Redirect Link").setExact(true));
-
+    public Locator toastsLink = page.getByRole(AriaRole.LINK, new Page.GetByRoleOptions().setName("Toasts").setExact(true));
+    public Locator wysiwygEditorLink = page.getByRole(AriaRole.LINK, new Page.GetByRoleOptions().setName("WYSIWYG Editor").setExact(true));
+    public Locator datetimePickersLink = page.getByRole(AriaRole.LINK, new Page.GetByRoleOptions().setName("Date & Time Pickers").setExact(true));
+    public Locator twoFactorLink = page.getByRole(AriaRole.LINK, new Page.GetByRoleOptions().setName("Two-Factor Login").setExact(true));
+    public Locator advancedIframesLink = page.getByRole(AriaRole.LINK, new Page.GetByRoleOptions().setName("Advanced Iframes").setExact(true));
 
 
     private Locator linkName(String name) {
