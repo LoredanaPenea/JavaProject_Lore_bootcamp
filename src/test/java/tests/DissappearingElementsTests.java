@@ -1,6 +1,5 @@
 package tests;
 
-import com.microsoft.playwright.options.AriaRole;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import pages.DissappearingElementsPage;

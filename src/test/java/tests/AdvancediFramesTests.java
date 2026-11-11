@@ -7,7 +7,7 @@ import pages.MainPage;
 
 public class AdvancediFramesTests extends BaseTest{
     @Test
-    public void advancediFramesTest()
+    public void advancedIFramesTest()
     {
         MainPage mainPage = new MainPage(page);
         mainPage.advancedIframesLink.click();
